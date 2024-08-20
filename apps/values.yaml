@@ -27,13 +27,10 @@ source:
 services:
   # shared epics services ######################################################
   epics-pvcs:
-    enabled: true
   epics-opis:
-    enabled: true
 
   # epics iocs #################################################################
   example-ea-test-01:
-    enabled: true
     ec_service: true
     targetRevision: 2024.8.4
 
