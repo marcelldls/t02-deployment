@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.2.10-5-g77831dd
+_src_path: gh:epics-containers/deployment-template-argocd
+argocd_project: esq51579
+argocd_server: argocd.diamond.ac.uk
+cluster_name_apps: argus
+cluster_name_services: argus
+cluster_namespace_apps: esq51579
+cluster_namespace_services: esq51579
+deployment_repo: https://github.com/marcelldls/t02-deployment
+description: t02 IOC Instances and Services
+git_platform: github.com
+github_org: marcelldls
+ioc_group: t02
+logging_url: https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
+services_release: 2024.8.1
+services_repo: https://github.com/marcelldls/t02-services

@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: t02
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: esq51579
+  destination:
+    name: argus
+    namespace: esq51579
+  source:
+    path: apps
+    repoURL: https://github.com/marcelldls/t02-deployment
+    targetRevision: main
+    helm:
+      version: v3
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
