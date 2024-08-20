@@ -14,7 +14,7 @@ destination:
   namespace: esq51579
 source:
   repoURL: https://github.com/marcelldls/t02-services
-  targetRevision: 2024.8.1
+  targetRevision: 2024.8.2
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -27,9 +27,16 @@ source:
 services:
   # shared epics services ######################################################
   epics-pvcs:
+    enabled: true
   epics-opis:
+    enabled: true
 
   # epics iocs #################################################################
   example-ea-test-01:
+    enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.2
+
+  example-ea-test-02:
+    ec_service: true
+    targetRevision: 2024.8.2
