@@ -10,8 +10,8 @@
 
 project: esq51579
 destination:
-  name: argus
-  namespace: esq51579
+  name: in-cluster
+  namespace: t03-beamline
 source:
   repoURL: https://github.com/marcelldls/t02-services
   targetRevision: 2024.8.4
