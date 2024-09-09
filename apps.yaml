@@ -7,7 +7,7 @@ metadata:
 spec:
   project: esq51579
   destination:
-    name: argus
+    name: in-cluster  # argus
     namespace: esq51579
   source:
     path: apps
