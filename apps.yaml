@@ -8,7 +8,7 @@ spec:
   project: esq51579
   destination:
     name: in-cluster  # argus
-    namespace: esq51579
+    namespace: argocd  # esq51579
   source:
     path: apps
     repoURL: https://github.com/marcelldls/t02-deployment
