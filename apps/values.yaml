@@ -10,7 +10,7 @@
 
 project: esq51579
 destination:
-  name: in-cluster
+  name: argus  # in-cluster
   namespace: esq51579
 source:
   repoURL: https://github.com/marcelldls/t02-services
