@@ -34,6 +34,7 @@ services:
     ec_service: true
     targetRevision: 2024.8.4
 
+    enabled: true
   example-ea-test-02:
     ec_service: true
     targetRevision: 2024.8.4
