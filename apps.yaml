@@ -7,15 +7,15 @@ metadata:
 spec:
   project: esq51579
   destination:
-    name: argus  # in-cluster
-    namespace: esq51579  # argocd
+    name: argus # in-cluster
+    namespace: esq51579 # argocd
   source:
     path: apps
     repoURL: https://github.com/marcelldls/t02-deployment
     targetRevision: main
     helm:
       version: v3
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  # syncPolicy:
+  #   automated:
+  #     prune: true
+  #     selfHeal: true
