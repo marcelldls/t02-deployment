@@ -8,10 +8,10 @@
 # services should be running on the cluster. It is recommended that this repo
 # be updated by a CI/CD pipeline or configuration tools only.
 
-project: esq51579
+project: t02
 destination:
-  name: argus  # in-cluster
-  namespace: esq51579
+  name: in-cluster
+  namespace: t02-beamline
 source:
   repoURL: https://github.com/marcelldls/t02-services
   targetRevision: 2024.8.4
