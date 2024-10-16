@@ -14,7 +14,7 @@ destination:
   namespace: t02-beamline
 source:
   repoURL: https://github.com/marcelldls/t02-services
-  targetRevision: 2024.8.4
+  targetRevision: 2024.10.1
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -29,13 +29,9 @@ services:
   epics-pvcs:
   epics-opis:
 
+ec_services:
   # epics iocs #################################################################
   example-ea-test-01:
-    ec_service: true
-    targetRevision: 2024.8.4
-
     enabled: true
   example-ea-test-02:
-    ec_service: true
-    targetRevision: 2024.8.4
     enabled: true
